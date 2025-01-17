@@ -1,10 +1,16 @@
 import React from "react";
+import "../assets/styles/header.css";
 
 function Header() {
   return (
-    <div>
-      <h2>Header</h2>
-    </div>
+    <header className="header">
+      <div className="logo">Library Management</div>
+      <nav>
+        <a href="/books">Books</a>
+        <a href="/user/signup">Signup</a>
+        <a href="/user/login">Login</a>
+      </nav>
+    </header>
   );
 }
 
