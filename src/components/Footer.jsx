@@ -1,10 +1,11 @@
 import React from "react";
+import "../assets/styles/footer.css";
 
 function Footer() {
   return (
-    <div>
-      <h2>Footer</h2>
-    </div>
+    <footer className="footer">
+      <p>&copy; 2025 Library Management System. All rights reserved.</p>
+    </footer>
   );
 }
 
